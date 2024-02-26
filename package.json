@@ -1,5 +1,5 @@
 {
-  "homepage": "https://nishant-timbadiya.github.io/Infolanze",
+  "homepage": "https://nishant-timbadiya.github.io/Infolanze/",
   "name": "-infolanze",
   "baseUrl": "https://65cdcfcb6215e786243d5192--elaborate-jalebi-25a031.netlify.app/",
   "private": true,
@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
+    "predeploy": "npm run dev",
     "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
