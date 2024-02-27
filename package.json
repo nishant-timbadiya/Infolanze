@@ -8,7 +8,6 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d index.html",
-    "start": "index.html start",
     "build": "vite build",
     "dev": "vite",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
